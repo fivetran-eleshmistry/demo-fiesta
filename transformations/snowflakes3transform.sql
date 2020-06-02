@@ -1,1 +1,1 @@
-copy into s3://fivetran-se-snowflake-unload/cgroup/ from "ELESHM"."SALESFORCE_DEV"."LEAD" storage_integration = fivetranunloadtest1 file_format = (TYPE=CSV compression='None');
+copy into s3://fivetranpoc/cgroup/ from "ELESHM"."SALESFORCE"."LEAD" storage_integration = fivetrancgrouppoc file_format = (TYPE=CSV compression='None');
