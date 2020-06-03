@@ -31,4 +31,4 @@ name: snowflakes3transform.sql
 trigger: 
   type: table
   tables: #list the tables that will trigger this transformation
-    - SALESFORCE_DEV.LEAD
+    - SFMC.ACTIVITY
