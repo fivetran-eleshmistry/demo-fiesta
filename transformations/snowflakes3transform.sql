@@ -1,1 +1,1 @@
-copy into s3://fivetranpoc/cgroup/ from "ELESHM"."SALESFORCE"."LEAD" storage_integration = fivetrancgrouppoc file_format = (TYPE=CSV compression='None');
+copy into s3://fivetranpoc/cgroup/ from "ELESHM"."SFMC"."ACTIVITY" storage_integration = fivetrancgrouppoc file_format = (TYPE=CSV field_optionally_enclosed_by='"' compression='None') OVERWRITE = TRUE;
